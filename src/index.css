@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body.prevent-scroll {
+  overflow-y: hidden;
+}
+
+#root.prevent-scroll-desktop {
+  overflow-y: hidden;
+}
+
+#root {
+  position: relative;
+  max-height: 100vh;
+}
+
+body * {
+  box-sizing: border-box;
+  font-family: 'Inter', 'Courier New', Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
